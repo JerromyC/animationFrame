@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Animation Frame</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.min.js"></script>
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="frame-big">
+            <video controls autoplay>
+                <source src="./Screen Recording 2024-12-14 115820.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="frame-small">
+            <video controls autoplay>
+                <source src="./mobile Screen Recording 2024-12-14 123641.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <svg id="black" viewBox="0 0 3000 1500""
+            xmlns=" http://www.w3.org/2000/svg">
+            <path id="black-path"
+                d="M0 1497.21C2067.04 1163.3 2961.17 448.298 3000 0C3000 596.626 3000 543.315 3000 543.315L3000 1497.21H395.204C241.091 1503.49 167.238 1497.21 0 1497.21Z" />
+        </svg>
+
+        <svg id="medium" viewBox="0 0 3000 1500">
+            <path id="medium-path"
+                d="M0 1496.92C2040.5 1042 2883.54 444.657 3000 0C3000 658.117 3000 444.716 3000 444.716L3000 1496.92H395.204C241.091 1503.85 167.238 1496.92 0 1496.92Z"
+                fill="#B22222" />
+        </svg>
+
+        <svg id="light" viewBox="0 0 3000 1500">
+            <path id="light-path"
+                d="M0 1496.92C2161.01 901.746 2805.67 444.716 3000 0L3000 444.716L2999.5 1493.38C2999.5 1493.38 1385.08 1493.38 395.204 1496.92C241.091 1503.85 167.238 1496.92 0 1496.92Z"
+                fill="#E9967A" />
+        </svg>
+
+        <img id="logo" src="./logo-round.svg" alt="">
+
+        <!-- ========background=========== -->
+        <div class="background-overlay"></div>
+        <ul class="background">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+    </div>
+
+</body>
+<footer>
+
+</footer>
